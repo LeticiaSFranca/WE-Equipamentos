@@ -1,0 +1,281 @@
+@import url('https://rsms.me/inter/inter.css');
+/*font-family: 'Inter', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+
+/*--------------------- Botão que aparece texto ---------------------*/
+
+#detalhesEspc{
+    color: #012776;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#botaoDetalhes {
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+#botaoDetalhes.about-me {
+    width: 12rem;
+}
+
+#botaoDetalhes.about-me .circle {
+    transition: 0.45s cubic-bezier(0.65, 0, 0, 076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background-color: #012776;
+    border-radius: 1.625rem;
+}
+
+#botaoDetalhes.about-me .circle .icon {
+    transition: 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #FFFFFF;
+}
+
+#botaoDetalhes.about-me .circle .icon.arrow {
+    transition: 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+#botaoDetalhes.about-me .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #FFFFFF;
+    border-right: 0.125rem solid #FFFFFF;
+    transform: rotate(45deg);
+}
+
+#botaoDetalhes.about-me .button-text {
+    transition: 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #012776;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#botaoDetalhes:hover .circle {
+    width: 100%;
+}
+
+#botaoDetalhes:hover .circle .icon.arrow {
+    background: #FFFFFF;
+    transform: translate(1rem, 0);
+}
+
+#botaoDetalhes:hover .button-text {
+    color: #FFFFFF;
+}
+
+/*Aparece o Texto*/
+
+#collapseExample {
+    border: 0;
+    background: transparent;
+}
+
+.espcBtn {
+    width: 2px;
+    height: 10px;
+}
+
+.espcBtn1 {
+    width: 2px;
+    height: 15px;
+}
+
+.formatDetalhes {
+    display: none;
+}
+
+.formatDetalhes-box {
+    background-color: #FFFFFF;
+    padding: 8px;
+    z-index: 6;
+}
+
+.espcParaDescric {
+    display: none;
+}
+
+/*----------- Cards -----------*/
+
+#todosOsCards {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.card {
+    width: 300px;
+}
+
+.card-img-top {
+    margin: 0;
+}
+
+.btn-primary {
+    background: linear-gradient(60deg, #012776 0%, #0f0f0f 112.71%);
+    border: 0;
+}
+
+.btn-primary:hover {
+    background: #7299E8;
+    transition: 0.5s;
+}
+
+/*-----------Pergunta no Topo-----------*/
+
+#btnDosProdutos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.btnProdutos {
+    background: linear-gradient(60deg, #012776 0%, #0f0f0f 112.71%);
+    color: #FFFFFF;
+    width: 380px;
+    height: 70px;
+    border-radius: 35px;
+    font-size: 27px;
+    font-weight: bolder;
+    border: 0;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.btnProdutos:hover {
+    cursor: pointer;
+    background: linear-gradient(60deg, #012776 30%, #7299E8 112.71%);
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/*-----------Pergunta Piscando-----------*/
+
+#tituloDaPergunta {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloPergunta {
+    color: #012776;
+    text-shadow: 2px 2px 2px #0f0f0f57;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+
+.tituloPergunta::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+    margin-top: 100px;
+    text-align: center;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+/*-----------Resposividade-----------*/
+
+@media (max-width: 1080px)
+
+/*Celular*/
+    {
+
+    body {
+        max-width: 1080px;
+    }
+
+    #todosOsCards {
+        flex-direction: column;
+    }
+
+    .card{
+        width: 260px;
+        margin-top: 20px;
+    }
+
+    #btnDosProdutos {
+        flex-direction: column;
+    }
+
+    .btnProdutos{
+        margin-left: 350px;
+        margin-top: 10px;
+        font-size: 20px;
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+
+    .tituloPergunta {
+        font-size: 25px;
+    }
+
+    .button-text {
+        font-size: 12px;
+    }
+
+    .barraTitulos {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    /*Tela maior que notebook*/
+    .blocosPares {
+        margin-left: 1000px;
+    }
+}

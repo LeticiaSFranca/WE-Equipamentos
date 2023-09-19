@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/* ------------------------------- */
+
+html{
+    scroll-behavior: smooth;
+}
+
+.dropdown{
+    display: none;
+}
+
+/*Barra de Rolagem*/
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #E3E3E3;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(60deg, #012776 0%, #0f0f0f 112.71%);
+    width: 10px;
+}
+
+/* Barra de Títulos */
+
+.barraTitulos{
+    background: linear-gradient(60deg, #012776 0%, #0f0f0f 112.71%);
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+    font-weight: bold;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Barra de navegação */
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 25px;
+    margin-left: -20px;
+}
+
+ul li{
+    margin-top: 6px;
+    margin-left: -80px;
+    font-family: 'Inter', sans-serif;
+}
+
+.espaco{
+    width: 5px;
+    height: auto;
+}
+
+nav {
+    width: 70%;
+}
+
+.logo {
+    padding: 10px 0;
+}
+
+#logoCabecalho{
+    margin-left: 50px;
+}
+
+.direita{
+    margin-right: 50px;
+}
+
+.barra {
+    width: 100%;
+    background: linear-gradient(60deg, #0f0f0f 12.55%, #012776 112.71%);
+    position: fixed;
+    top: 0;
+    z-index: 7;
+}
+
+.barra-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botoesMenu{
+    border-radius: 6px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 7px 10px;
+    border: 0;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    margin-top: -7px;
+    text-decoration: none;
+}
+
+.botoesMenu:hover{
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+    color: #7299E8;
+    text-decoration: none;
+}
+
+.iconesMenu{
+    padding-right: 6px;
+}
+
+/*Banner Inicial*/
+#imgs-de-inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    margin-top: 130px;
+}
+
+#imgs-de-inicio>div>img{
+    width: 460px;
+}
+
+#btn1{
+    margin-left: -60px;
+    margin-right: 60px;
+}
+
+#btn2{
+    margin-right: 60px;
+}
+
+#btn3{
+    margin-right: 60px;
+}
+
+#btn4{
+    margin-right: 60px;
+}
+
+/*------------ Botões de Acesso------------*/
+#sectionBTNAcesso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnsAcesso{
+    padding: 50px;
+    margin-right: 50px;
+    width: 200px;
+    border-radius: 15%;
+    background: linear-gradient(60deg, #012776 12.55%, #7299E8 112.71%);
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    color: white;
+    margin-top: 40px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.btnsAcesso:hover{
+    cursor: pointer;
+    background: #0F0F0F;
+    transition: ease-in-out 0.3s;
+}
+
+/*-----------Resposividade-----------*/
+
+@media (max-width: 1080px)
+/*Celular*/
+{    
+    /*Cabeçalho*/
+    body{
+        max-width: 1080px;
+    }
+
+    .barra{
+        width: 100%;
+    }
+
+    .dropdown{
+        display: flex;
+        z-index: 9;
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+
+    #dropdownMenuButton{
+        background-color: transparent;
+        border: 0;
+    }
+
+    .direita{
+        display: none;
+    }
+    
+    .logoEsquerda{
+        margin-left: 30px;
+    }
+
+    #logoCabecalho{
+        margin-left: -20px;
+    }
+
+    /*Banner Inicial*/
+    #imgs-de-inicio{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        margin-top: 100px;
+    }
+
+    #imgs-de-inicio>div>img{
+        width: 460px;
+        padding: 30px;
+    }
+}

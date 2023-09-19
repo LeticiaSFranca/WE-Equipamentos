@@ -1,0 +1,89 @@
+@import url('https://rsms.me/inter/inter.css');
+/*font-family: 'Inter', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+@import url('https://rsms.me/inter/inter.css');
+/*font-family: 'Inter', sans-serif;*/
+
+/*-----------------------------------------*/
+
+body{
+    background-color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+} 
+html{
+    scroll-behavior: smooth;
+}
+
+/*Barra de Rolagem*/
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #E3E3E3;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(60deg, #0f0f0f 0%, #012776 112.71%);
+    width: 10px;
+}
+
+.barraTitulosWPP{
+    background: linear-gradient(60deg, #0f0f0f 0%, #012776 112.71%);
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 40px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#escanear{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.tablet{
+    margin-top: 40px;
+}
+
+#tituloEscanear{
+    margin-top: 100px;
+}
+
+#comoEscanear{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: row;
+}
+
+/*-------------------Responsividade----------------------*/
+
+@media (max-width: 1080px)
+/*Celular*/
+{    
+    /*Cabeçalho*/
+    body{
+        max-width: 1080px;
+    }
+
+    #dropdownMenuButton{
+        margin-left: -280px;
+    }
+
+    #comoEscanear{
+        flex-direction: column;
+    }
+}

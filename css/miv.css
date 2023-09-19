@@ -1,0 +1,17 @@
+#bannerGrandes{
+    width: 800px;
+}
+
+#tudoMIV{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-control-next:hover{
+    background: #01267671;
+}
+
+.carousel-control-prev:hover{
+    background: #01267671;
+}

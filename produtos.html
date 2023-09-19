@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/logos/WELogoAzulSFundo.png" type="image/x-icon">
+    <!--Link do Css Principal do Site-->
+    <link rel="stylesheet" href="./css/index.css">
+    <!--Link do Css - Área Produtos-->
+    <link rel="stylesheet" href="./css/produtos.css">
+    <!--Link do Css - Área Contatos-->
+    <link rel="stylesheet" href="./css/contatos.css">
+    <!--Link do Css - Área Sobre Nós-->
+    <link rel="stylesheet" href="./css/sobre-nos.css">
+    <!--Link do Css - Rodapé-->
+    <link rel="stylesheet" href="./css/rodape.css">
+    <!-- Link da Keyword -->
+    <link rel="keywords" href="./keywords.html">
+    <!--Nome da Nova Guia do Site-->
+    <title>Produtos | WE Equipamentos</title>
+</head>
+
+<body>
+
+    <br><br>
+    <!--Menu da Página-->
+    <div class="barra" class="header js-header headroom--not-bottom header--collapsed header--onscreen
+        headroom--top">
+        <div class="menu-centro">
+            <div class="barra-conteiner centralizador">
+                <div class="logoEsquerda">
+                    <a href="./index.html" id="logoCabecalho"><img src="./assets/img/logos/WELogoBrancaSFundo.png" alt="logo"
+                            width="90px" /></a>
+                </div>
+
+                <nav class="direita">
+                    <ul>
+                        <li id="btn1"><a href="./produtos.html" class="botoesMenu">
+                                <img src="./assets/icones/iconeCarrinho.png" width="25px" class="iconesMenu">
+                                Produtos</a></li>
+                        <li id="btn2"><a href="#contatos" class="botoesMenu">
+                                <img src="./assets/icones/iconeTelefone.png" width="25px" class="iconesMenu">
+                                Contatos</a></li>
+                        <li id="btn3"><a href="./index.html" class="botoesMenu">
+                                <img src="./assets/icones/iconeEstrela.png" width="23px" class="iconesMenu">
+                                Sobre Nós</a></li>
+                        <li id="btn4"><a href="./locacoes.html" class="botoesMenu">
+                                <img src="./assets/icones/iconeCarrinho.png" width="25px" class="iconesMenu">
+                                Locações</a></li>
+                        <li class="nav-item">
+                            <i class="fa fa-moon nav-link"></i>
+                        </li>
+                    </ul>
+                </nav>
+
+
+                <!--Menu de DropDown - Bootstrap-->
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+                        <img src="./assets/icones/icone_menu.png" width="30px">
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="./produtos.html">Produtos</a>
+                        <a class="dropdown-item" href="#contatos">Contatos</a>
+                        <a class="dropdown-item" href="#sobre-nos">Sobre Nós</a>
+                        <a class="dropdown-item" href="./locacoes.html">Locações</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Menu da Página-->
+
+    <div id="tituloDaPergunta"><span style="display: inline" class="tituloPergunta">Quais Produtos Deseja Ver?</span></div>
+
+    <div id="btnDosProdutos">
+        <a href="#produtosIndustriais" class="btnProdutos"><img src="./assets/icones/iconeSoldador.png" width="45px"> Industriais</a>
+        <a href="#produtosMedicinais" class="btnProdutos"><img src="./assets/icones/iconeEstetoscopio.png" width="50px"> Medicinais</a>
+    </div>
+
+    <!-- ---------------------------------------------- Produtos Industriais ---------------------------------------------- -->
+    <section>
+        <div id="produtosIndustriais" class="barraTitulos">Produtos Industriais</div>
+
+        <header id="todosOsCards">
+
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="./assets/img/produtos/acendedor concha.png" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title" class="products">Acendedor Concha</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            <span class="circle"><span class="icon arrow"></span></span>
+                            <span class="button-text" id="btnDetalhes1" onclick="leiaMais1()">Detalhes</span>
+                        </button>
+
+                        <span id="pontos1"></span>
+
+                    <div class="formatDetalhes-box">
+                        <span id="detalhes1" class="formatDetalhes">- Utilizado para o acendimento de maçaricos nas
+                            operações de solda, corte e aquecimento. <br>
+                            - Evita a perda de gás e proporciona pronta ignição
+                            e total segurança ao soldador.
+                        </span>
+                    </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="./assets/img/produtos/Agulheiro.png" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Agulheiro</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            <span class="circle"><span class="icon arrow"></span></span>
+                            <span class="button-text" id="btnDetalhes2" onclick="leiaMais2()">Detalhes</span>
+                        </button>
+
+                        <span id="pontos2"></span>
+
+                    <div class="formatDetalhes-box">
+                        <span id="detalhes2" class="formatDetalhes">Para a limpeza de bicos de corte
+                            e bicos de solda.
+                        </span>
+                    </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="./assets/img/produtos/Bico de Corte.png" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Bico de Corte</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            <span class="circle"><span class="icon arrow"></span></span>
+                            <span class="button-text" id="btnDetalhes3" onclick="leiaMais3()">Detalhes</span>
+                        </button>
+
+                        <span id="pontos3"></span>
+
+                    <div class="formatDetalhes-box">
+                        <span id="detalhes3" class="formatDetalhes">Mantêm separadas as misturas dos gases e é
+                            utilizado para direcionar esses gases para
+                            a superfície a ser cortada através de
+                            orifícios em seu interior.
+                        </span>
+                    </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ------------- Separando de 3 em 3 ------------- -->
+
+        <header id="todosOsCards">
+            <!-- Card 4 -->
+            <div class="card">
+                <img src="./assets/img/produtos/Bico de Solda.png" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Bico de Solda</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes4" onclick="leiaMais4()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos4"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes4" class="formatDetalhes">É usado nos gases de oxigênio e
+                                    acetileno e modo geral. Bico de corte para ser
+                                    utilizado em maçaricos, utilizado para acetileno,
+                                    próprio para corte oxi combustível manual ou
+                                    mecanizado em superfícies limpas, com ou sem
+                                    oxidação.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="card">
+                <img src="./assets/img/produtos/Carrinho Duplo para Transporte de Cilindros.png" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Carrinho - 2 Cilindros</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes5" onclick="leiaMais5()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos5"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes5" class="formatDetalhes">Transporte de 2 cilindros.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="card">
+                <img src="./assets/img/produtos/Carrinho para Transporte de 1 Cilindro.png" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Carrinho - 1 Cilindro</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes6" onclick="leiaMais6()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos6"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes6" class="formatDetalhes">Transporte de 1 cilindro.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ------------- Separando de 3 em 3 ------------- -->
+
+        <header id="todosOsCards">
+            <!-- Card 7 -->
+            <div class="card">
+                <img src="./assets/img/produtos/Carro Guia Equitorme HK-66.png" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Carro Guia Equistorme HK-66</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes7" onclick="leiaMais7()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos7"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes7" class="formatDetalhes">Acessório perfeito para cortes que necessitam de
+                                    precisão e pode sofrer variação de grau de corte entre 5º, 20º ou 35º. Ainda acompanha
+                                    a possibilidade de criar cortes circulares perfeitos.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="card">
+                <img src="./assets/img/produtos/conjunto de solda acetileno.png" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto de Solda Acetileno</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes8" onclick="leiaMais8()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos8"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes8" class="formatDetalhes">Carrinho Oxi/Acetileno, completo.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 9 -->
+            <div class="card">
+                <img src="./assets/img/produtos/conjunto de solda para glp.png" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto de Solda<br>GLP</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes9" onclick="leiaMais9()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos9"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes9" class="formatDetalhes">Carrinho Oxi/GLP, completo.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ------------- Separando de 3 em 3 ------------- -->
+
+        <header id="todosOsCards">
+            <!-- Card 10 -->
+            <div class="card">
+                <img src="./assets/img/produtos/disco corte.png" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Disco de Corte</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes10" onclick="leiaMais10()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos10"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes10" class="formatDetalhes">4.1/2" Inox Galzer (CX-800) - Unidade.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 11 -->
+            <div class="card">
+                <img src="./assets/img/produtos/disco desbaste.png" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Disco de Desbaste</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes11" onclick="leiaMais11()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos11"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes11" class="formatDetalhes">4.1/2" Galzer (CX25/100) - Unidade</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 12 -->
+            <div class="card">
+                <img src="./assets/img/produtos/extensao de solda.webp" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Extensão de Solda</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes12" onclick="leiaMais12()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos12"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes12" class="formatDetalhes">Têm a função de realizar de maneira eficiente e segura a 
+                                    mistura dos gases e ter alta resistência para não permitir o retrocesso.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ------------- Separando de 3 em 3 ------------- -->
+
+        <header id="todosOsCards">
+            <!-- Card 13 -->
+            <div class="card">
+                <img src="./assets/img/produtos/mangueira dupla.jpg" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Mangueira Dupla</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes13" onclick="leiaMais13()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos13"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes13" class="formatDetalhes">- Indicada em equipamento de soldagem com
+                                    oxigênio/acetileno. <br>
+                                    - Possui grande resistência a abrasão e é
+                                    extremamente flexível. <br>
+                                    - Pressão de trabalho: 20 Bar / 300 psi. <br>
+                                    - Cor: verde (oxigênio) vermelho (acetileno ou glp).</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 14 -->
+            <div class="card">
+                <img src="./assets/img/produtos/manômetro.jpg" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Manômetro</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes14" onclick="leiaMais14()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos14"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes14" class="formatDetalhes">Ferramenta utilizada para medir a pressão dentro de um 
+                                    sistema de pulverização. Ele informa a real pressão de trabalho no momento da aplicação. 
+                                    Por meio dela, é possível identificar a vazão e o diâmetro da gota.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 15 -->
+            <div class="card">
+                <img src="./assets/img/produtos/oculos fume.webp" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Óculos Fumê</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes15" onclick="leiaMais15()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos15"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes15" class="formatDetalhes">As lentes na cor fumê filtram até 99,9% dos raios UVA 
+                                    e UVB e são indicadas para atividades a céu aberto ou com exposição direta ao sol, bem como 
+                                    para ambientes com luminosidade intensa, pois evitam a fadiga e a dificuldade de visão devido 
+                                    à alta incidência de luz.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ------------- Separando de 3 em 3 ------------- -->
+
+        <header id="todosOsCards">
+            <!-- Card 16 -->
+            <div class="card">
+                <img src="./assets/img/produtos/oculos incolor.webp" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Óculos Incolor</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes16" onclick="leiaMais16()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos16"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes16" class="formatDetalhes">- Proteção contra impactos. <br>
+                                    - Proteção dos olhos contra impactos de partículas volantes: indústria em geral.<br> 
+                                    - Proteção contra respingos líquidos: Laboratórios.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 17 -->
+            <div class="card">
+                <img src="./assets/img/produtos/oculos macariqueiro.jfif" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Óculos Maçariqueiro</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes17" onclick="leiaMais17()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos17"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes17" class="formatDetalhes">Indicado para trabalhos em construção civil, indústria em geral, 
+                                    mineração, ou aplicações onde seja necessária a proteção dos olhos contra impactos de partículas volantes, 
+                                    luminosidade intensa e para atividades de solda oxiacetileno.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 18 -->
+            <div class="card">
+                <img src="./assets/img/produtos/oculos verde.webp" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Óculos Verde</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes18" onclick="leiaMais18()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos18"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes18" class="formatDetalhes">São capazes de filtrar até 99,9% dos raios UVA 
+                                    e UVB. Possibilitam ótimo conforto óptico na exposição solar, em atividades ao céu aberto. 
+                                    Ideais para ambientes com luminosidade intensa.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ------------- Separando de 3 em 3 ------------- -->
+
+        <header id="todosOsCards">
+            <!-- Card 19 -->
+            <div class="card">
+                <img src="./assets/img/produtos/Regulador de Pressão Aferisolda Acetileno.jpg" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Regulador de Pressão Aferisolda Acetileno</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes19" onclick="leiaMais19()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos19"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes19" class="formatDetalhes">Regulador de Pressão para Cilindro de Gases
+                                    de simples estágio. Corpo forjado Latão, Tampa em aço cromado. Produto importado.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 20 -->
+            <div class="card">
+                <img src="./assets/img/produtos/Regulador de Pressão Aferisolda Argonio.png" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Regulador de Pressão Aferisolda Argônio</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes20" onclick="leiaMais20()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos20"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes20" class="formatDetalhes">Regulador de Pressão para Cilindro de Gases
+                                    de simples estágio. Corpo forjado Latão, Tampa em aço cromado. Produto importado.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 21 -->
+            <div class="card">
+                <img src="./assets/img/produtos/Regulador de Pressão Aferisolda CO2.png" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Regulador de Pressão Aferisolda CO²</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes21" onclick="leiaMais21()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos21"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes21" class="formatDetalhes">Regulador de Pressão para Cilindro de Gases
+                                    de simples estágio. Corpo forjado Latão, Tampa em aço cromado. Produto importado.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ------------- Separando de 3 em 3 ------------- -->
+
+        <header id="todosOsCards">
+            <!-- Card 22 -->
+            <div class="card">
+                <img src="./assets/img/produtos/Regulador de Pressão Aferisolda Oxigenio.png" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Regulador de Pressão Aferisolda O²</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes22" onclick="leiaMais22()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos22"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes22" class="formatDetalhes">Regulador de Pressão para Cilindro de Gases
+                                    de simples estágio. Corpo forjado Latão, Tampa em aço cromado. Produto importado.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 23 -->
+            <div class="card">
+                <img src="./assets/img/produtos/O Regulador de Pressão Duplo Estágio.png" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Regulador de Pressão Duplo Estágio</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes23" onclick="leiaMais23()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos23"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes23" class="formatDetalhes">Serve para minimizar as oscilações na pressão
+                                    de trabalho, mantendo a vazão constante. <br><br>
+                                    
+                                    Ideais para a utilização em laboratórios, máquinas
+                                    de solda MIG/MAG/TIG, equipamentos de precisão,
+                                    processos de Goivagem, Metalização e Pressurização
+                                    de cabos telefônicos.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 24 -->
+            <div class="card">
+                <img src="./assets/img/produtos/Regulador de Pressão Mod.580.png" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Regulador de Pressão Mod.580</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes24" onclick="leiaMais24()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos24"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes24" class="formatDetalhes">(Pressão Máxima de até 40KGS) <br>
+                                    - Disponível p/ Oxigênio e Nitrogênio -</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ------------- Separando de 3 em 3 ------------- -->
+
+        <header id="todosOsCards">
+            <!-- Card 25 -->
+            <div class="card">
+                <img src="./assets/img/produtos/Regulador de Pressão Mod.600.png" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Regulador de Pressão Mod.600</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes25" onclick="leiaMais25()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos25"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes25" class="formatDetalhes">(Pressão Máxima de até 40KGS) <br>
+                                    - Disponível p/ Oxigênio e Nitrogênio -</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 26 -->
+            <div class="card">
+                <img src="./assets/img/produtos/Válvula Corta Chama VCR-30 e VCR-20.png" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Válvula Corta Chama VCR-30 e VCR-20</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes26" onclick="leiaMais26()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos26"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes26" class="formatDetalhes">(Produto Importado) <br><br>
+                                    VCR-30 para uso e Regulador <br>
+                                    VCR-20 para uso e Maçarico <br><br>
+                                    1 - Válvula Unidirecional: Impede a reversão dos fluxos
+                                    dos gases evitando a formação de mistura gasosa
+                                    nos reguladores, reduzindo o risco de explosão. <br><br>
+                                    
+                                    2 - Filtro Corta Chama de Aço inoxidável sinterizado:
+                                    Extingue o retrocesso de chama. Impedindo que ela atinja
+                                    o regulador e o sistema de suprimento dos gases. <br>
+                                    - Atendem a norma NR-18 -</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 27 -->
+            <div class="card">
+                <img src="./assets/img/produtos/Regulador de Pressão Oxigênio Medicinal - Aferisolda.png"
+                    class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Regulador de Pressão Oxigênio Medicinal</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes27" onclick="leiaMais27()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos27"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes27" class="formatDetalhes">- Manômetro de alta pressão com escala de
+                                    0 a 300 Kgf/cm2. <br>
+                                    - Pressão fixa de 3,5 Kgf/cm2. <br>
+                                    - Entrada com filtro em bronze sinterizado. <br>
+                                    - Válvula de segurança. <br>
+                                    - Fluxômetro. <br>
+                                    - Fabricado em metal cromado. <br>
+                                    - Escala de 1 a 15 litros no Fluxômetro.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ------------- Separando de 3 em 3 ------------- -->
+
+        <header id="todosOsCards">
+            <!-- Card 28 -->
+            <div class="card">
+                <img src="./assets/img/produtos/Regulador de Pressão para Cilindro de Gases modelo 300.png"
+                    class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Regulador de Pressão para Cilindro de Gases - Modelo 300</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes28" onclick="leiaMais28()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos28"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes28" class="formatDetalhes">- Modelo 300 é ideal para trabalhos médios <br>
+                                    de solda, corte e aquecimento.
+                                    - Regulador de simples estágio; <br>
+                                    - Corpo usinado em alumínio de alta resistência, tampa
+                                    com pintura em epóxi na cor preta; <br>
+                                    - Possui dois sistemas de segurança: Externo (válvula
+                                    de alívio) e Interno(rompimento do diafragma); <br>
+                                    - Vazão suficiente para cortar aço de até 300mm de
+                                    expessura;</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 29 -->
+            <div class="card">
+                <img src="./assets/img/produtos/Regulador de Pressão para Cilindro de Gases modelo 500.png"
+                    class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Regulador de Pressão para Cilindro de Gases - Modelo 500</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes29" onclick="leiaMais29()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos29"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes29" class="formatDetalhes">- Modelo 500 é ideal para trabalhos pesados de solda,
+                                    corte e aquecimento. <br>
+                                    - Regulador de simples estágio; <br>
+                                    - Corpo forjado em latão, tampa em cromo de alta
+                                    resistência. <br>
+                                    - Possui dois sistemas de segurança: Externo e Interno <br>
+                                    - Vazão suficiente para cortar aço de até 400mm de
+                                    expessura; <br>
+                                    - Manopla de regulagem com trava interna.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 30 -->
+            <div class="card">
+                <img src="./assets/img/produtos/Regulador de Pressão para Gás Hélio.jpg" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Regulador de Pressão para Gás Hélio</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes30" onclick="leiaMais30()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos30"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes30" class="formatDetalhes">Tem como função o enchimento de balões
+                                    infláveis de festa (bexigas), em látex ou metálicos,
+                                    possui um bico de borracha flexível que se torna
+                                    prático, ágil e facilita o manuseio, podendo ser
+                                    manipulado por qualquer pessoa, até sem muita
+                                    prática. Ideal para salões de festas, aniversários
+                                    infantis, shows e eventos promocionais. <br><br>
+                                    
+                                    - Disponíveis nas versões com e sem a manopla -</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ------------- Separando de 3 em 3 ------------- -->
+
+        <header id="todosOsCards">
+            <!-- Card 31 -->
+            <div class="card">
+                <img src="./assets/img/produtos/regulador glp 45.webp" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Regulador GLP</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes31" onclick="leiaMais31()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos31"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes31" class="formatDetalhes">- Alta Durabilidade <br>
+                                    - Escala de Fácil Leitura <br>
+                                    - Fácil Manutenção <br>
+                                    - Corpo com latão forjado <br>
+                                    - Precisão na leitura</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 32 -->
+            <div class="card">
+                <img src="./assets/img/produtos/vcf-mg.webp" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Válvula Corta Fogo MG</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes32" onclick="leiaMais32()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos32"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes32" class="formatDetalhes">Sem Descrição</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 33 -->
+            <div class="card">
+                <img src="./assets/img/produtos/vcf-mo.webp" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Válvula Corta Fogo MO</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes33" onclick="leiaMais33()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos33"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes33" class="formatDetalhes">Sem Descrição</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ------------- Separando de 3 em 3 ------------- -->
+
+        <header id="todosOsCards">
+            <!-- Card 34 -->
+            <div class="card">
+                <img src="./assets/img/produtos/vcf-rg.webp" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Válvula Corta Fogo RG</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes34" onclick="leiaMais34()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos34"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes34" class="formatDetalhes">Sem Descrição</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 35 -->
+            <div class="card">
+                <img src="./assets/img/produtos/vcf-ro.webp" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Válvula Corta Fogo RO</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes35" onclick="leiaMais35()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos35"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes35" class="formatDetalhes">Sem Descrição</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+        <!-- Card 36 -->
+        <div class="card">
+            <img src="./assets/img/produtos/arame-mig-0.8.webp" class="card-img-top" alt="Fissure in Sandstone" />
+            <div class="card-body">
+                <h5 class="card-title">Arame MIG 0.8</h5>
+                <p class="card-text">
+                    <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            <span class="circle"><span class="icon arrow"></span></span>
+                            <span class="button-text" id="btnDetalhes36" onclick="leiaMais36()">Detalhes</span>
+                        </button>
+
+                        <span id="pontos36"></span>
+
+                        <div class="formatDetalhes-box">
+                            <span id="detalhes36" class="formatDetalhes">O arame para solda MIG é um tipo de eletrodo 
+                                não revestido, alimentado de forma semi automática à poça de fusão e protegido por um 
+                                gás de proteção.</span>
+                        </div>
+                </p>
+                <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+            </div>
+        </div>
+        </header>
+
+        <!-- ------------- Separando de 3 em 3 ------------- -->
+
+        <header id="todosOsCards">
+            <!-- Card 37 -->
+            <div class="card">
+                <img src="./assets/img/produtos/arame-mig-1.0.webp" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Arame MIG 1.0</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes37" onclick="leiaMais37()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos37"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes37" class="formatDetalhes">O arame para solda MIG é um tipo de eletrodo 
+                                    não revestido, alimentado de forma semi automática à poça de fusão e protegido por um 
+                                    gás de proteção.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card 38 -->
+            <div class="card">
+                <img src="./assets/img/produtos/arame-mig-1.2.webp" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Arame MIG 1.2</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhes38" onclick="leiaMais38()">Detalhes</span>
+                            </button>
+
+                            <span id="pontos38"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhes38" class="formatDetalhes">O arame para solda MIG é um tipo de eletrodo 
+                                    não revestido, alimentado de forma semi automática à poça de fusão e protegido por um 
+                                    gás de proteção.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+        <!-- Card 39 -->
+        <!-- <div class="card">
+            <img src="./assets/img/produtos/arame-mig-0.8.webp" class="card-img-top" alt="Fissure in Sandstone" />
+            <div class="card-body">
+                <h5 class="card-title">Arame MIG 0.8</h5>
+                <p class="card-text">
+                    <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            <span class="circle"><span class="icon arrow"></span></span>
+                            <span class="button-text" id="btnDetalhes39" onclick="leiaMais39()">Detalhes</span>
+                        </button>
+
+                        <span id="pontos39"></span>
+
+                        <div class="formatDetalhes-box">
+                            <span id="detalhes39" class="formatDetalhes">Sem Descrição</span>
+                        </div>
+                </p>
+                <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+            </div>
+        </div> -->
+    </header>
+
+
+        <!-- ---------------------------------------------- Produtos Medicinais ---------------------------------------------- -->
+        <div id="produtosMedicinais" class="barraTitulos">Produtos Medicinais</div>
+
+
+        <header id="todosOsCards">
+            <!-- Card M1 -->
+            <div class="card">
+                <img src="./assets/img/produtos/cateter nasal.webp" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Catéter Nasal</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhesM1" onclick="leiaMaisM1()">Detalhes</span>
+                            </button>
+
+                            <span id="pontosM1"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhesM1" class="formatDetalhes">É utilizado para administrar oxigênio de baixo fluxo 
+                                    (1 a 5 lpm) em pacientes adultos e pediátricos. Sua utilização é simples e permite que o paciente 
+                                    mantenha suas atividades diárias, como falar e comer, sem dificuldades.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card M2 -->
+            <div class="card">
+                <img src="./assets/img/produtos/extensao oxi-vac.jpg" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Extensão OXI-VAC</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhesM2" onclick="leiaMaisM2()">Detalhes</span>
+                            </button>
+
+                            <span id="pontosM2"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhesM2" class="formatDetalhes">É indicado para oxigenoterapia, podendo o Asp Vac ser utilizado 
+                                    para aspiração cirúrgica.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+            <!-- Card M3 -->
+            <div class="card">
+                <img src="./assets/img/produtos/umidificador ox.webp" class="card-img-top" alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">Umidificador OX.250ML</h5>
+                    <p class="card-text">
+                        <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <span class="circle"><span class="icon arrow"></span></span>
+                                <span class="button-text" id="btnDetalhesM3" onclick="leiaMaisM3()">Detalhes</span>
+                            </button>
+
+                            <span id="pontosM3"></span>
+
+                            <div class="formatDetalhes-box">
+                                <span id="detalhesM3" class="formatDetalhes">Indicado para pacientes que necessitam umidificar vias aéreas, 
+                                    evitando ressecamento da laringe.</span>
+                            </div>
+                    </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ------------- Separando de 3 em 3 ------------- -->
+
+        <header id="todosOsCards">
+            <!-- Card M4 -->
+            <div class="card">
+                <img src="./assets/img/locacoes/concentrador de oxigenio estacionario olive-5.png" class="card-img-top"
+                    alt="Fissure in Sandstone" />
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Concentrador de Oxigênio Oliver 5L</h5>
+                        <p class="card-text">
+                            <button class="about-me" id="botaoDetalhes" class="btn btn-primary" data-toggle="collapse"
+                                    data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                    <span class="circle"><span class="icon arrow"></span></span>
+                                    <span class="button-text" id="btnDetalhesM4" onclick="leiaMaisM4()">Detalhes</span>
+                                </button>
+    
+                                <span id="pontosM4"></span>
+    
+                                <div class="formatDetalhes-box">
+                                    <span id="detalhesM4" class="formatDetalhes">
+                                        <b style="color: #012776">- Tem como finalidade realizar a purificação do ar,
+                                            gerando oxigênio de alta pureza. Os acessórios catéter nasal e umidificador são necessários 
+                                            na utilização do concentrador, seu uso é simples e permite que o paciente mantenha suas 
+                                            atividade diárias, como falar e comer sem dificuldades.</b> <br><br>
+                                            
+                                        - Revestimento de plástico, design inovador, uma
+                                        operação simples com um funcionamento estável
+                                        e de fácil manutenção.<br><br>
+
+                                        - Gera oxigenio adotando métodos físicos e
+                                        de baixo custo, com ar como matéria-prima, sem
+                                        a utilização de aditivos, necessitando apenas da
+                                        fonte de alimentação.<br><br>
+
+                                        - Adotar tecnologia de pressão oscildante de
+                                        absorção (PSA), do crivo molecular eficiente, com
+                                        fluxo de processo simples e de baixo consumo de
+                                        energia.<br><br>
+                                        
+                                        <i><b>Obs.:</b> Cilindro de 5 litros de oxigenio medicinal com<br>
+                                            regulador irá junto no kit!</i><br><br>
+                                        <b>Por favor, leia as intruções atentamente antes<br>
+                                            de utilizar o equipamento.</b>
+                                    <a href="./assets/documentos/Manual OLV-5_221219_134932.pdf"><br> ➡ Instruções ⬅ </a></span>
+                                </div>
+                        </p>
+                    <a href="#contatos" class="btn btn-primary">Fazer Orçamento</a>
+                </div>
+            </div>
+
+    </section>
+    <!--/Produtos Todos-->
+
+    <!--Contatos-->
+    <section id="contatos">
+
+        <div class="barraTitulos">Faça Já Seu Pedido!</div><br><br>
+
+        <div class="formularioContato">
+
+            <div id="logoContatos"><img src="./assets/img/logos/WELogoBrancaSFundo.png" width="200px"></div>
+            <form action="https://formsubmit.co/weequipamentosparasoldas1307@gmail.com" method="post"
+                enctype="multipart/form-data"><br>
+                <label>
+                    <span><i class="icon icon-user-1"></i> Nome</span>
+                    <input type="text" name="nome" required placeholder="Seu nome">
+                </label>
+
+                <label>
+                    <span><i class="icon icon-email"></i> E-mail</span>
+                    <input type="text" name="email" class="fade_8S" placeholder="exemplo@email.com">
+                </label>
+
+                <label>
+                    <span><i class="icon icon-email"></i> Telefone</span>
+                    <input type="tel" name="celular" required placeholder="(31)91234-5678" id="telefone"
+                        oninput=mascara_telefone() maxlegth="14">
+                </label>
+
+                <label>
+                    <span><i class="icon icon-flag"></i> Assunto</span>
+                    <input type="text" name="assunto" required placeholder="ex: Orçamento">
+                </label>
+
+                <label>
+                    <span><i class="icon icon-comment" id="caixaMensagem"></i> Mensagem</span>
+                    <textarea name="mensagem" rows="3" required placeholder="Digite aqui sua mensagem."></textarea>
+                </label>
+
+                <input type="hidden" name="acao" value="enviar" />
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://weequipamentosparasoldas.netlify.app">
+                <button type="submit" class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o">
+                        Enviar</b></button>
+
+            </form><br>
+        </div>
+    </section>
+    <!--/Contatos-->
+
+    <!--Rodapé-->
+    <section id="rodape">
+
+        <header id="centralizarRodape">
+
+            <footer id="dadosRodape">
+                <div id="faleConosco-Rodape"><b>Fale Conosco</b></div>
+
+                “Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos.” – Provérbios 16:3
+
+                <br><br>
+
+                <div id="emailRodape"><b class="espcRodape">Email:</b> weequipamentosparasoldas1307@gmail.com</div>
+                <div id="enderecoRodape"><b class="espcRodape">Endereço:</b> R. Alcochete, 110 - Jardim das Alterosas
+                    Betim - MG, 32670-718
+                </div>
+                <div id="telefoneRodape"><b class="espcRodape">Telefone:</b> (31) 9 7139-1477</div>
+                <div id="cnpjRodape"><b class="espcRodape">CNPJ:</b> 47.277.601/0001-00</div>
+
+                <br>
+
+                <div class="iconesRodape">
+                    <a href="./whatsapp.html">
+                        <img src="./assets/icones/iconeWhatsapp.png" width="50px" class="iconesRodape2"></a>
+                    <a href="mailto:weequipamentosparasoldas1307@gmail.com" target="_blank">
+                        <img src="./assets/icones/iconeEmail.png" width="47px" class="iconesRodape2"></a>
+                    <!-- <a href="" target="_blank">
+                        <img src="/assets/icones/iconeFacebook.png" width="50px" class="iconesRodape2"></a>-->
+                    <a href="https://goo.gl/maps/gPSmz8Jr3qg5ehZu7" target="_blank" style="margin-top: -30px;">
+                        <img src="./assets/icones/iconeLocalizacao.png" width="43px" class="iconesRodape2"></a>
+                </div>
+
+                <br>
+
+                <div id="direitosDoSite">Copyright ©2023 All rights reserved<br>
+                    This Web Site was made by <a href="https://lsfranca.netlify.app/" target="_blank"
+                        style="text-decoration: none; cursor: pointer; color: white;">
+                        Letícia França</a></div>
+            </footer>
+        </header>
+    </section>
+    <!--/Rodapé-->
+
+</body>
+<!--Script do Site-->
+<script src="./js/script.js"></script>
+<!--Link do Bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<!--Scripts do Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</html>
