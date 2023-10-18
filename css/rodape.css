@@ -86,21 +86,25 @@
 
     #rodape{
         width: 100%;
-        height: 400px;
-        margin-bottom: -30px;
+        height: 500px;
+        margin-bottom: 0;
         padding: 10px 40px;
         font-size: 10px;
     }
 
     #faleConosco-Rodape{
-        font-size: 20px;
-        margin-top: 30px;
+        font-size: 30px;
+        margin: 20px 0;
     }
 
     #direitosDoSite{
         font-size: 8px;
         margin-top: 10px;
         text-align: center;
+    }
+
+    #contatos{
+        font-size: 10px;
     }
 
     .iconesRodape{
