@@ -279,12 +279,17 @@ nav {
 
     /* Cabeçalho */
     #cabecalho{
+        background: url(../assets/img/capas/banner-celular.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 450px;
         margin-bottom: 40px;
     }
 
     #cabecalho>div{
         margin-top: 100px;
+        display: none;
         padding: 0 3    0px;
     }
 
