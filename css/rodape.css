@@ -5,7 +5,7 @@
 /*Rodapé*/
 #rodape{
     background: linear-gradient(60deg, #012776 0%, #0f0f0f 112.71%);
-    height: 400px;
+    height: 390px;
     width: 100%;
     margin-top: 50px;
     color: #FFFFFF;
@@ -13,40 +13,72 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    flex-direction: column;
     font-family: 'Poppins', sans-serif;
+}
+
+#vesiculo-biblico{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#contatos{
+    font-size: 15px;
+    margin-bottom: 7px;
 }
 
 #direitosDoSite{
-    font-size: 12px;
-    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    font-size: 10px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: -20px;
+}
+
+#direitosDoSite>a{
+    color: #f0f0f0;
+    text-decoration: none;
+    padding-left: 3px;
+}
+
+#direitosDoSite>a:hover{
+    color: #B4E4FF;
+    text-decoration: none;
 }
 
 #faleConosco-Rodape{
-    margin-bottom: 15px;
-    font-size: 35px;
+    font-size: 20px;
     margin-top: 20px;
     font-family: 'Poppins', sans-serif;
 }
 
-.iconesRodape2{
-    margin-top: 5px;
-    margin-right: 20px;
+.iconesRodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
 }
 
-.iconesRodape2:hover{
+.iconesRodape>a>i{
+    font-size: 30px;
+    margin-right: 7px;
+    color: #f0f0f0;
+    margin-right: 30px;
+}
+
+.iconesRodape>a>i:hover{
     cursor: pointer;
-    background-color: #7299E8;
-    border-radius: 30px;
-    padding: 5px;
-    transition: ease-in-out 0.3s;
+    color: #B4E4FF;
 }
-
-/*-------------------------Responsividade*/
 
 @media (max-width: 1080px)
-/*Celular*/
 {    
     body{
         max-width: 1080px;
@@ -54,33 +86,34 @@
 
     #rodape{
         width: 100%;
-        height: 400px;
-        margin-bottom: -30px;
+        height: 500px;
+        margin-bottom: 0;
+        padding: 10px 40px;
+        font-size: 10px;
+    }
+
+    #faleConosco-Rodape{
+        font-size: 30px;
+        margin: 20px 0;
     }
 
     #direitosDoSite{
         font-size: 8px;
-        margin-top: 30px;
+        margin-top: 10px;
         text-align: center;
     }
 
-    #dadosRodape{
+    #contatos{
         font-size: 10px;
     }
 
-    .espcRodape{
-        font-size: 10px;
-    }
-
-    .iconesRodape2{
+    .iconesRodape{
         width: 37px;
-        margin-right: 10px;
-        margin-bottom: -10px;
-        margin-top: 20px;
+        margin-top: 5px;
     }
 
-    #vesiculo-biblico{
-        padding-left: 20px;
-        padding-right: 20px;
+    .barraTitulos{
+        margin-top: -10px;
+        font-size: 25px;
     }
 }

@@ -1,3 +1,8 @@
+window.addEventListener("scroll", function(){
+  let header = this.document.querySelector('.barra')
+  header.classList.toggle('rolagem', window.scrollY > 0)
+})
+// -----------------------------------------------------------------------
 function mascara_telefone() {
   //limitador
   var tel = document.getElementById("telefone").value
