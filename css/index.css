@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 /* ------------------------------- */
 
 html{
@@ -82,7 +82,7 @@ body::-webkit-scrollbar-thumb {
     color: transparent;
     font-weight: bold;
 
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lilita One', sans-serif;
     font-size: 50px;
     font-weight: 800;
     letter-spacing: 2px;
