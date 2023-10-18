@@ -17,7 +17,7 @@
     margin:auto; 
     padding:1em; 
     margin-bottom:1em; 
-    border-radius:6px; 
+    border-radius: 6px; 
     background: linear-gradient(-60deg, #012776 0%,#0f0f0f 112.71%);
     box-shadow: 1px 0px 1.2px 0px #ccc; 
     position:relative; 
@@ -135,8 +135,6 @@
 /*--------------Responsividade*/
 
 @media (max-width: 1080px)
-
-/*Celular*/
     {
         .formularioContato {
             max-width: 310px;

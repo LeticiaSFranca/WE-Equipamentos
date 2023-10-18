@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/img/logos/WELogoAzulSFundo.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/produtos.css">
     <link rel="stylesheet" href="./css/contatos.css">
     <link rel="stylesheet" href="./css/sobre-nos.css">
     <link rel="stylesheet" href="./css/rodape.css">
@@ -65,11 +64,19 @@
     <!--/Menu da Página-->
 
     <!--Imagens de Início-->
-    <section id="imgs-de-inicio" width="100%">
-        <div><img src="./assets/img/capas/AvisoDeLocacao.png"></div>
-        <div><img src="./assets/img/capas/FraseMotivacional.png"></div>
-        <div><img src="./assets/img/capas/EntreEmContato.png"></div>
-    </section>
+    <div id="cabecalho">
+        <img src="/assets/img/outras/soldador.png" alt="soldador">
+
+        <div id="texto-cabecalho">
+            <p><b id="titulo-cabecalho">O que fazemos?</b><br>
+                - Fornecemos produtos medicinais e para soldas de alta qualidade <br><br>
+                - Locamos também Concentrador para Oxigenoterapia! </p> <br>
+
+            <p id="aviso">Fazemos entregas! <br><br> Entre em contato conosco e <br> faça já seu orçamento!</p>
+        </div>
+
+        <img src="./assets/img/outras/medico.png" alt="medico">
+    </div>
     <!--/Imagens de Início-->
 
     <!--Sobre Nós-->
@@ -81,24 +88,24 @@
             <div class="divs-sobre-nos">
                 <div><img src="./assets/img/sobre-nos/SBValores.png" class="imagens-sobre-nos"></div>
                 <p class="descricoes-sobre-nos">
-                    - Fornecer produtos de qualidade <br>
-                    - Atendimento diferenciado e customizado <br>
-                    - Compromisso com os clientes e ética nos negócios
+                    Fornecemos produtos de qualidade; <br>
+                    Nosso atendimento é customizado; <br>
+                    Temos grande compromisso com os clientes e ética nos negócios!
                 </p>
             </div>
 
             <div class="divs-sobre-nos">
                 <div><img src="./assets/img/sobre-nos/SBMissao.png" class="imagens-sobre-nos"></div>
                 <p class="descricoes-sobre-nos">
-                    Satisfazer nossos clientes com produtos de altíssima qualidade visando <br> o destaque da
+                    Satisfazemos nossos clientes com produtos de altíssima qualidade visando <br> o destaque da
                     WE Equipamentos no mercado industrial e medicinal.
                 </p>
             </div>
 
             <div class="divs-sobre-nos">
                 <div><img src="./assets/img/sobre-nos/SBVisao.png" class="imagens-sobre-nos"></div>
-                <p class="descricoes-sobre-nos"> Ser a melhor empresa no ramo de equipamentos indutriais
-                    <br>e medicinais visando a excelência junto a nossos clientes.</p>
+                <p class="descricoes-sobre-nos"> Rumo à meta de ser a melhor empresa no ramo de equipamentos indutriais
+                    <br>e medicinais, visando a excelência junto a nossos clientes!</p>
             </div>
         </div>
     </section>
@@ -107,7 +114,7 @@
     <!--Contatos-->
     <section id="contatos">
 
-        <div class="barraTitulos">Faça Já Seu Pedido!</div><br><br>
+        <div class="barraTitulos">Faça já seu orçamento!</div><br><br>
 
         <div class="formularioContato">
 
@@ -142,7 +149,7 @@
 
                 <input type="hidden" name="acao" value="enviar" />
                 <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="https://weequipamentosparasoldas.netlify.app">
+                <input type="hidden" name="_next" value="https://weequipamentos.com">
                 <button type="submit" class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o">
                         Enviar</b></button>
 
@@ -152,49 +159,53 @@
     <!--/Contatos-->
 
     <!--Rodapé-->
-    <section id="rodape">
+        <footer id="rodape">
+                <div id="faleConosco-Rodape"><b>Fale Conosco <i class="bi bi-chat"></i></b></div>
 
-        <header id="centralizarRodape">
+                <div id="vesiculo-biblico">“Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos.”<br><b> – Provérbios 16:3</b></div>
 
-            <footer id="dadosRodape">
-                <div id="faleConosco-Rodape"><b>Fale Conosco</b></div>
+                <br>
 
-                <div id="vesiculo-biblico">“Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos.”<b> – Provérbios 16:3</b></div>
-
-                <br><br>
-
-                <div id="emailRodape"><b class="espcRodape">Email:</b> weequipamentosparasoldas1307@gmail.com</div>
-                <div id="enderecoRodape"><b class="espcRodape">Endereço:</b> R. Alcochete, 110 - Jardim das Alterosas
-                    Betim - MG, 32670-718
+                <div id="contatos">
+                    <div id="emailRodape"><b class="espcRodape">Email:</b> weequipamentosparasoldas1307@gmail.com</div>
+                    <div id="enderecoRodape"><b class="espcRodape">Endereço:</b> R. Alcochete, 110 - Jardim das Alterosas
+                        Betim - MG, 32670-718
+                    </div>
+                    <div id="telefoneRodape"><b class="espcRodape">Telefone:</b> (31) 9 7139-1477</div>
+                    <div id="cnpjRodape"><b class="espcRodape">CNPJ:</b> 47.277.601/0001-00</div>
                 </div>
-                <div id="telefoneRodape"><b class="espcRodape">Telefone:</b> (31) 9 7139-1477</div>
-                <div id="cnpjRodape"><b class="espcRodape">CNPJ:</b> 47.277.601/0001-00</div>
 
                 <br>
 
                 <div class="iconesRodape">
                     <a href="./whatsapp.html">
-                        <img src="./assets/icones/iconeWhatsapp.png" width="50px" class="iconesRodape2"></a>
+                        <i class="bi bi-whatsapp"></i></a>
                     <a href="mailto:weequipamentosparasoldas1307@gmail.com" target="_blank">
-                        <img src="./assets/icones/iconeEmail.png" width="47px" class="iconesRodape2"></a>
-                    <!-- <a href="" target="_blank">
-                        <img src="/assets/icones/iconeFacebook.png" width="50px" class="iconesRodape2"></a>-->
-                    <a href="https://goo.gl/maps/gPSmz8Jr3qg5ehZu7" target="_blank" style="margin-top: -30px;">
-                        <img src="./assets/icones/iconeLocalizacao.png" width="43px" class="iconesRodape2" id="iconLocal"></a>
+                        <i class="bi bi-envelope"></i></a>
+                    <a href="https://goo.gl/maps/gPSmz8Jr3qg5ehZu7" target="_blank">
+                        <i class="bi bi-geo-alt"></i></a>
                 </div>
 
                 <br>
 
-                <div id="direitosDoSite">Copyright ©2023 All rights reserved<br>
-                    This Web Site was made by <a href="https://lsfranca.netlify.app/" target="_blank"
-                        style="text-decoration: none; cursor: pointer; color: white;">
-                        Letícia França</a></div>
-            </footer>
-        </header>
-    </section>
+                <p id="direitosDoSite">Copyright ©2023 All rights reserved
+                    This Web Site was made by<a href="https://lsfranca.netlify.app/" target="_blank"> Letícia França</a></p>
+        </footer>
     <!--/Rodapé-->
 
 </body>
 <script src="./js/script.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<!--Scripts do Dropdown-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </html>
