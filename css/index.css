@@ -64,24 +64,24 @@ ul {
 ul li{
     margin-top: 6px;
     margin-left: -80px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-.espaco{
-    width: 5px;
-    height: auto;
+ul li i{
+    padding-right: 8px;
 }
 
 nav {
     width: 70%;
 }
 
-.logo {
-    padding: 10px 0;
+#logoCabecalho{
+    padding: 0 80px;
 }
 
-#logoCabecalho{
-    margin-left: 50px;
+#logoCabecalho img{
+    width: 90px;
+    padding: 2px 0;
 }
 
 .direita{
@@ -103,14 +103,11 @@ nav {
 }
 
 .botoesMenu{
-    border-radius: 6px;
-    background-color: transparent;
     color: #FFFFFF;
-    font-weight: bold;
-    font-size: 19px;
-    padding: 7px 10px;
+    font-weight: 550;
+    font-size: 20px;
+    padding: 7px 20px;
     border: 0;
-    letter-spacing: 1px;
     display: flex;
     align-items: center;
     margin-top: -7px;
@@ -120,12 +117,8 @@ nav {
 .botoesMenu:hover{
     transition: ease-in-out 0.3s;
     cursor: pointer;
-    color: #7299E8;
+    color: #B4E4FF;
     text-decoration: none;
-}
-
-.iconesMenu{
-    padding-right: 6px;
 }
 
 /*Banner Inicial*/

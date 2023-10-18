@@ -151,7 +151,7 @@
 }
 
 .btn-primary:hover {
-    background: #7299E8;
+    background: #B4E4FF;
     transition: 0.5s;
 }
 
@@ -179,9 +179,10 @@
 
 .btnProdutos:hover {
     cursor: pointer;
-    background: linear-gradient(60deg, #012776 30%, #7299E8 112.71%);
+    background: #B4E4FF;
     text-decoration: none;
-    color: #FFFFFF;
+    transition: ease 0.3s;
+    color: #012776;
 }
 
 /*-----------Pergunta Piscando-----------*/
