@@ -18,9 +18,9 @@
     text-align: center;
     margin-right: 20px;
 
-    border: solid 1px #0126769d;
+    /* border: solid 0.5px #0126769d; */
     border-radius: 10px;
-    box-shadow: 2px 2px 2px #22222279;
+    box-shadow: 2px 2px 2px 2px #22222279;
     width: 300px;
     height: 400px;
 }
