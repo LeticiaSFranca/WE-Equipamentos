@@ -143,6 +143,19 @@ ul li{
 
 .card {
     width: 300px;
+    border: 0;
+    box-shadow: 2px 2px 2px 2px #0f0f0f3d;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #0f0f0f;
+}
+
+.formatDetalhes{
+    font-family: "Inter", sans-serif;
+}
+
+.card>img{
+    padding: 10px;
 }
 
 .card-img-top {
@@ -170,7 +183,7 @@ ul li{
 
 .btnProdutos {
     background: linear-gradient(60deg, #012776 0%, #0f0f0f 112.71%);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #FFFFFF;
     width: 380px;
     height: 70px;
@@ -193,6 +206,23 @@ ul li{
     background: #B4E4FF;
     text-decoration: none;
     transition: ease-in-out 0.5s;
+    color: #012776;
+}
+
+.card>.card-body>a{
+    border: 0;
+    color: #f0f0f0;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.card>.card-body>a:hover{
+    cursor: pointer;
+    background: #B4E4FF;
+    text-decoration: none;
+    transition: ease 0.2s;
     color: #012776;
 }
 
@@ -256,23 +286,27 @@ ul li{
     }
 
     #btnDosProdutos {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
     }
 
     .btnProdutos{
-        margin-left: 350px;
         margin-top: 10px;
         font-size: 20px;
         width: 250px;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 0;
-        padding-top: 0;
+        flex-direction: row;
     }
 
     .tituloPergunta {
         font-size: 25px;
+        margin-top: -50px;
     }
 
     .button-text {
@@ -281,13 +315,5 @@ ul li{
 
     .barraTitulos {
         font-size: 30px;
-    }
-}
-
-@media (min-width: 1400px) {
-
-    /*Tela maior que notebook*/
-    .blocosPares {
-        margin-left: 1000px;
     }
 }
