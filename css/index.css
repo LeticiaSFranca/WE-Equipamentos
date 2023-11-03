@@ -66,7 +66,8 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
 }
 
-#cabecalho>img{
+.imgsCabecalho{
+    display: flex;
     width: 500px;
     height: 500px;
 }
@@ -273,23 +274,18 @@ nav {
     }
 
     #logoCabecalho{
-        margin-left: -20px;
+        margin-left: -40px;
     }
 
     /* Cabeçalho */
     #cabecalho{
-        background: url(../assets/img/capas/banner-celular.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         height: 450px;
         margin-bottom: 40px;
     }
 
     #cabecalho>div{
-        margin-top: 100px;
-        display: none;
-        padding: 0 10px;
+        margin-top: 80px;
+        padding: 0 30px;
     }
 
     #titulo-cabecalho{
@@ -301,7 +297,7 @@ nav {
         text-align: center;
     }
 
-    #cabecalho>img{
-       display: none;
+    .imgsCabecalho{
+        display: none;
     }
 }

@@ -133,16 +133,18 @@ ul li{
 
 /*----------- Cards -----------*/
 
-#todosOsCards {
-    flex-direction: row;
+.TodosOsProdutos {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
 }
 
 .card {
     width: 300px;
+    margin-top: 20px;
     border: 0;
     box-shadow: 2px 2px 2px 2px #0f0f0f3d;
     border-radius: 20px;
