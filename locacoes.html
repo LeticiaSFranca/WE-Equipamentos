@@ -74,10 +74,10 @@
 
         <div id="texto-cabecalho">
             <p><b id="titulo-cabecalho">O que fazemos?</b><br>
-                - Fornecemos produtos medicinais e para soldas de alta qualidade <br><br>
-                - Locamos também Concentrador para Oxigenoterapia! </p> <br>
+                ➡ Fornecemos produtos medicinais e para soldas de alta qualidade <br><br>
+                ➡ Locamos também Concentrador para Oxigenoterapia! </p> <br>
 
-            <p id="aviso">Fazemos entregas! <br><br> Entre em contato conosco e <br> faça já seu orçamento!</p>
+            <p id="aviso"><b>Fazemos entregas!</b><br> Entre em contato conosco e <br> faça já seu orçamento!</p>
         </div>
 
         <img src="./assets/img/outras/medico.png" alt="medico" class="imgsCabecalho">
@@ -141,45 +141,43 @@
     <!--Contatos-->
     <section id="contatos">
 
-        <div class="barraTitulos">Faça Já Seu Pedido!</div><br><br>
+        <div class="barraTitulos">Faça já seu orçamento!</div>
+            <p id="legenda-contatos">Preenchendo o formulário abaixo, sua mensagem chega direto no nosso email!</p>
 
         <div class="formularioContato">
-
-            <div id="logoContatos"><img src="./assets/img/logos/WELogoBrancaSFundo.png" width="200px"></div>
             <form action="https://formsubmit.co/weequipamentosparasoldas1307@gmail.com" method="post"
                 enctype="multipart/form-data"><br>
                 <label>
-                    <span><i class="icon icon-user-1"></i> Nome</span>
+                    <span><i class="bi bi-person"></i> Nome:</span>
                     <input type="text" name="nome" required placeholder="Seu nome">
                 </label>
 
                 <label>
-                    <span><i class="icon icon-email"></i> E-mail</span>
+                    <span><i class="bi bi-envelope"></i> E-mail:</span>
                     <input type="text" name="email" class="fade_8S" placeholder="exemplo@email.com">
                 </label>
 
                 <label>
-                    <span><i class="icon icon-email"></i> Telefone</span>
+                    <span><i class="bi bi-telephone"></i> Telefone:</span>
                     <input type="tel" name="celular" required placeholder="(31)91234-5678" id="telefone"
                         oninput=mascara_telefone() maxlegth="14">
                 </label>
 
                 <label>
-                    <span><i class="icon icon-flag"></i> Assunto</span>
+                    <span><i class="bi bi-mailbox-flag"></i> Assunto:</span>
                     <input type="text" name="assunto" required placeholder="ex: Orçamento">
                 </label>
 
                 <label>
-                    <span><i class="icon icon-comment" id="caixaMensagem"></i> Mensagem</span>
+                    <span><i class="icon icon-comment" id="caixaMensagem"></i> Mensagem:</span>
                     <textarea name="mensagem" rows="3" required placeholder="Digite aqui sua mensagem."></textarea>
                 </label>
 
                 <input type="hidden" name="acao" value="enviar" />
                 <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="https://weequipamentosparasoldas.netlify.app">
+                <input type="hidden" name="_next" value="https://weequipamentos.com">
                 <button type="submit" class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o">
                         Enviar</b></button>
-
             </form><br>
         </div>
     </section>

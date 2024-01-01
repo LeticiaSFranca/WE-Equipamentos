@@ -4,19 +4,18 @@
 
 /*Área de Contatos*/
 
-#logoContatos{
-   position: absolute;
-   margin-left: 340px;
-   margin-top: 50px;
+#legenda-contatos{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .formularioContato { 
-    max-width:600px; 
+    max-width: 70%; 
     height:auto; 
     margin:auto;
     padding: 20px 20px; 
     border-radius: 30px; 
-    background: linear-gradient(-60deg, #012776 0%,#0f0f0f 112.71%); 
+    background: transparent; 
 }
 
 .formularioContato:before { 
@@ -41,9 +40,10 @@
 
 .formularioContato label span {
     width: 100%;
+    font-size: 17px;
     float: left;
-    font-weight: bold;
-    color: #FFFFFF;
+    font-weight: bolder;
+    color: #012776;
     margin-bottom: 6px;
     font-family: 'Poppins', sans-serif; 
 }
@@ -53,11 +53,12 @@
     color:#555; 
     font-family: 'Poppins', sans-serif; 
     outline:none; 
-    border:1px #dee5ed solid; 
+    border: 0;
+    background: #dee5ed; 
     border-radius: 10px; 
     padding:0.6em; 
     transition: 0.3s;  
-    width: 270px;
+    width: 100%;
 }
 
 .formularioContato label select { 
@@ -73,8 +74,9 @@
 .formularioContato label textarea { 
     font-size:1em; 
     color:#555;
-    padding: 6px; 
-    border:1px #dee5ed solid; 
+    padding: 6px;
+    background: #dee5ed; 
+    border: 0; 
     border-radius: 10px; 
     width: 99%;
     height: 200px;
@@ -85,34 +87,34 @@
 }
 
 .formularioContato label input:focus { 
-    box-shadow:0 0 5px 0px rgb(178,216,231); 
+    box-shadow:0 0 5px 0px #b2d8e7; 
     border:1px #B4E4FF solid; 
-    color:#B4E4FF;
+    color: #000000;
     font-family: 'Poppins', sans-serif; 
 }
 
 .formularioContato label select:focus { 
-    box-shadow:0 0 5px 0px rgb(178,216,231); 
+    box-shadow:0 0 5px 0px #b2d8e7; 
     border:1px #B4E4FF solid;
     font-family: 'Poppins', sans-serif; 
 }
 
 .formularioContato label textarea:focus { 
-    box-shadow:0 0 5px 0px rgb(178,216,231); 
+    box-shadow:0 0 5px 0px #b2d8e7; 
     border:1px #B4E4FF solid; 
     color:#B4E4FF;
     font-family: 'Poppins', sans-serif; 
 }
 
 .formularioContato button.btn-envia { 
-    background: transparent;
+    background: #012776;
     width: 30%; 
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: solid 2px #B4E4FF;
+    border: 0;
     display:block; 
     margin-top: 0;
     margin: auto; 

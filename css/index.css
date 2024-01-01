@@ -7,9 +7,9 @@ html{
 }
 
 body{
+    background-color: #FFFFFF;
     margin: 0;
     overflow-x: hidden;
-    background: #ffffff;
 }
 
 /*Barra de Rolagem*/
