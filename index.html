@@ -117,33 +117,34 @@
         <div class="barraTitulos">Faça já seu orçamento!</div>
             <p id="legenda-contatos">Preenchendo o formulário abaixo, sua mensagem chega direto no nosso email!</p>
 
-        <div class="formularioContato">
+        <div class="formularioContato" id="form">
             <form action="https://formsubmit.co/weequipamentosparasoldas1307@gmail.com" method="post"
                 enctype="multipart/form-data"><br>
                 <label>
                     <span><i class="bi bi-person"></i> Nome:</span>
-                    <input type="text" name="nome" required placeholder="Seu nome">
+                    <input type="text" name="nome" class="inputs required" placeholder="Seu nome">
                 </label>
 
                 <label>
                     <span><i class="bi bi-envelope"></i> E-mail:</span>
-                    <input type="text" name="email" class="fade_8S" placeholder="exemplo@email.com">
+                    <!-- class="fade_8S" -->
+                    <input type="text" name="email" class="inputs required" placeholder="exemplo@email.com">
                 </label>
 
                 <label>
                     <span><i class="bi bi-telephone"></i> Telefone:</span>
-                    <input type="tel" name="celular" required placeholder="(31)91234-5678" id="telefone"
+                    <input type="tel" name="celular" class="inputs required" placeholder="(31)91234-5678" id="telefone"
                         oninput=mascara_telefone() maxlegth="14">
                 </label>
 
                 <label>
                     <span><i class="bi bi-mailbox-flag"></i> Assunto:</span>
-                    <input type="text" name="assunto" required placeholder="ex: Orçamento">
+                    <input type="text" name="assunto" class="inputs required" placeholder="ex: Orçamento">
                 </label>
 
                 <label>
                     <span><i class="icon icon-comment" id="caixaMensagem"></i> Mensagem:</span>
-                    <textarea name="mensagem" rows="3" required placeholder="Digite aqui sua mensagem."></textarea>
+                    <textarea name="mensagem" rows="3" class="inputs required" placeholder="Digite aqui sua mensagem."></textarea>
                 </label>
 
                 <input type="hidden" name="acao" value="enviar" />
